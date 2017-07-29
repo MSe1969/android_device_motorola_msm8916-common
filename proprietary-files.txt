@@ -116,11 +116,6 @@ vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libSHIMDivxDrm.so
 vendor/lib/libwfdcommonutils.so
 
-# Moto
-bin/batt_health
-bin/dbvc_atvc_property_set
-bin/hardware_revisions.sh
-
 # Qualcomm framework
 bin/irsc_util
 vendor/lib/libdiag.so
