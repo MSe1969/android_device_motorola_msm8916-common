@@ -55,12 +55,12 @@ ro.pip.gated=0
 sys.usb.rps_mask=10
 
 # IMS
-persist.radio.force_get_pref=1
+#persist.radio.force_get_pref=1
 persist.radio.mot_ecc_custid=common
 persist.radio.mot_ecc_enabled=1
 #persist.radio.multisim.config=dsds
-persist.radio.plmn_name_cmp=1
-ro.telephony.ril.config=simactivation
+#persist.radio.plmn_name_cmp=1
+#ro.telephony.ril.config=simactivation
 ro.telephony.default_network=9
 ro.ril.def.preferred.network=9
 persist.radio.rat_on=combine
@@ -68,6 +68,7 @@ persist.radio.ROTATION_ENABLE=1
 persist.radio.VT_ENABLE=1
 persist.radio.VT_HYBRID_ENABLE=1
 persist.radio.VT_USE_MDM_TIME=0
+persist.ims.volte=true
 
 # Media
 vidc.enc.narrow.searchrange=1
@@ -89,6 +90,7 @@ debug.qc.hardware=true
 persist.timed.enable=true
 
 # Radio
+net.lte.volte_call_capable=true
 persist.data.qmi.adb_logmask=0
 persist.radio.apn_delay=5000
 persist.radio.apm_sim_not_pwdn=1
@@ -103,9 +105,9 @@ persist.radio.csvt.enabled=false
 persist.sys.e911=cs
 ro.ril.enable.amr.wideband=1
 persist.dbg.volte_avail_ovr=1
-persist.volte_enalbed_by_hw=1
-telephony.lteOnCdmaDevice=1
-ro.ril.multi_rat_capable=true
+persist.volte_enabled_by_hw=1
+telephony.lteOnGsmDevice=1
+#ro.ril.multi_rat_capable=true
 rild.libargs=-d /dev/smd0
 rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
 
